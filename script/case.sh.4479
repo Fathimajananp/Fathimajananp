@@ -1,0 +1,9 @@
+case $1 in
+cat | dog ) echo "argument is an animal name"
+;;
+parrot | crow ) echo "argument is a bird "
+;;
+
+* ) echo "unkown type"
+;;
+esac

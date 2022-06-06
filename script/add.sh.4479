@@ -1,0 +1,5 @@
+#add three numbers
+echo "Enter three numbers :"
+read n1 n2 n3
+sum=` expr $n1 + $n2 + $n3 `
+echo "the sum is $sum" 

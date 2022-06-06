@@ -1,0 +1,10 @@
+case $1 in
+[aeiou]* ) echo "word begins with lower case vowel"
+;;
+[AEIOU]* ) echo "begins with upper case vowel"
+;;
+*[0-9] ) echo "end with digit"
+;;
+??? ) echo "three letter word"
+;;
+esac
